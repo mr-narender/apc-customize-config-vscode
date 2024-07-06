@@ -1,0 +1,85 @@
+{
+  "apc.activityBar": {
+    "itemMargin": 5, // Margin between two items (default: 3)
+    "itemSize": 30, // Size of items within the bar (default: size)
+    "position": "top", // top: above sidebar, bottom: below sidebar (default: 'left' if unspecified)
+    "size": 30 // Height (when top/bottom) or width (in default position)
+  },
+  "apc.electron": {
+    "backgroundColor": "rgba(123, 123, 123, 0.5)",
+    "frame": false,
+    "opacity": 0.98,
+    "titleBarOverlay": {
+      "color": "#2f3241",
+      "height": 30,
+      "symbolColor": "#74b1be"
+    },
+    // "titleBarStyle": "hiddenInset",
+    "titleBarStyle": "hidden",
+    "transparent": false
+  },
+  "apc.header": {
+    "compact": 20, // Applied wtih "window.density.editorTabHeight": "compact"
+    "default": 30, // Applied with "window.density.editorTabHeight": "default"
+    "fontSize": 15,
+    "height": 30 // Applied when neither "default" nor "compact" is specified
+  },
+  "apc.menubar.compact": true,
+  "apc.sidebar.titlebar": {
+    "fontSize": 12,
+    "height": 30
+  },
+  "apc.statusBar": {
+    "fontSize": 12,
+    "height": 30,
+    "position": "editor-bottom"
+  },
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+  "breadcrumbs.symbolPath": "on",
+  "editor.colorDecorators": true,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "Fira Code, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.insertSpaces": true,
+  "editor.letterSpacing": 0.5,
+  "editor.lineHeight": 24,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": true,
+  "editor.minimap.scale": 2,
+  "editor.minimap.showSlider": "always",
+  "editor.renderWhitespace": "all",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.horizontalScrollbarSize": 10,
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontFamily": "Fira Code, monospace",
+  "terminal.integrated.fontSize": 14,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.border": "#FF79C6",
+    "editorIndentGuide.activeBackground1": "#FF79C6",
+    "editorIndentGuide.background1": "#4B4B4B",
+    "editorLineNumber.activeForeground": "#FF79C6",
+    "editorLineNumber.foreground": "#5A5A5A",
+    "statusBar.background": "#1E1E1E",
+    "statusBar.debuggingBackground": "#263238",
+    "statusBar.noFolderBackground": "#1E1E1E"
+  },
+  "workbench.colorTheme": "dcode",
+  "workbench.editor.splitSizing": "distribute",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "workbench.statusBar.visible": true
+}
